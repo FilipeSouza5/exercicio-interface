@@ -24,12 +24,16 @@ Essas são as classes filhas, onde esta implementada a interface de forma difere
 
 ![Subclasse Carro](3 int.png)
 
-4. **Programa**
+4. **Programa:**
 
 E por fim, a classe Programa. Ela ira instanciar os objetos, armazenando em um array do tipo Estacionavel e será acessado cada objeto por meio de um loop for, verificando se eles são estacionáveis naquela vaga ou não, além de contar os objetos estacionáveis. 
 
-![](6 int.png) 
+![](5 int.png) 
 
+5. **Resultado no terminal**
+
+![](6 int.png)
+   
 Este é um exemplo de polimorfismo porque é possível armazenar diferentes objetos em um array do tipo Estacionavel, além disso, no loop for, é executado a implementação do método correspondente à classe real do objeto.
 
 A vantagem principal é permitir que seja possível trabalhar com diferentes tipos de objetos usando uma interface comum, sem precisar escrever um código completamente separado para cada classe.
